@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Category.find_or_create_by(name: "Exercise")
+Category.find_or_create_by(name: "Education")
+Category.find_or_create_by(name: "Recipe")
+
+Video.find_or_create_by(title: "test_clip", category_id: Category.first.id)
