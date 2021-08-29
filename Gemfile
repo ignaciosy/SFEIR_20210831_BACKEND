@@ -57,3 +57,6 @@ gem "graphql", "~> 1.12"
 gem 'graphiql-rails', group: :development
 
 gem "apollo_upload_server", "~> 2.1"
+
+gem "rack-cors", "~> 1.1"
+gem 'activestorage-validator'
