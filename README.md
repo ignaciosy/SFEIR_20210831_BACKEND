@@ -5,8 +5,11 @@ Small Rails app intended to work as a backend service for a video library exampl
 ## Setting up
 
 1. `bundle install`
+2. `rails db:migrate`
 2. `rails db:seed`
 3. `rails s`
+
+Server will be listening in port `:3001/graphql`.
 
 ## Next steps
 
